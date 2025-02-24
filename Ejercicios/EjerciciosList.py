@@ -72,4 +72,4 @@ print("\nEjercicio 6:")
 lista = [1, 2, 3, 4, 5, 6]
 mitad = len(lista) // 2                               # Con [:mitad] recorremos la lista hasta la mitad
 lista_invertida = lista[:mitad][::-1] + lista[mitad:] # y con [::-1] esa mitad que tomamos, la invertimos
-print(lista_invertida)                    
+print(lista_invertida)           
